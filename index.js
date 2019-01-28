@@ -29,7 +29,7 @@ function findTheCheese (foods) {
   for(var i=0;i<foods.length;i++){
     var cheeseindex=newarray.indexOf(foods[i]);
     for(var j=0;j<newarray.length;j++){
-      empty.push(newarray[j].foods[i]);
+      empty.push(foods[i]);
     }
     return empty
     if(cheeseindex!==-1)
