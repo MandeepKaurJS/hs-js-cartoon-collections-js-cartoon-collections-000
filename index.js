@@ -4,7 +4,7 @@ function dwarfRollCall(dwarves) {
     // "1. Sleepy, 2. Dopey"
   
   var arreyfun1=[];
-  for(var i = 0;i<dwarves.length;i++){
+  for(var i = 0;i<dwarves.length/2;i++){
     arreyfun1.push(i+1+". "+dwarves[i]+" ");
   }
   return arreyfun1.join('');
