@@ -47,11 +47,9 @@ function wordsThatStartWithB(words){
     // Iteration "bob"; empty => ['bob']
     // Iteration "alice"; empty => ['bob']
     // Iteration "eva"; empty => ['bob']
-    if(words=="b"{
-      rerun 
-    })
-    empty.push(words[i].startsWith['b']);
-    
+    if(words=="b"){
+     empty.push(words[i].startsWith['b']);
+    }  
   }
   return empty
 }
