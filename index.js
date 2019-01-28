@@ -11,7 +11,9 @@ function dwarfRollCall(dwarves) {
   
   var arreyfun1=[];
   
-  for(var i = 3;i<dwarves.length;i++){
+  
+  
+  for(var i =dwarves.length/2;i<dwarves.length;i++){
     arreyfun1.push(i+1+". "+dwarves[i]+" ");
   }
   return arreyfun1.join('');
