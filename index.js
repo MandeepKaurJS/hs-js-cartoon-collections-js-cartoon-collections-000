@@ -27,8 +27,11 @@ function findTheCheese (foods) {
   var newarray=["camembert","cheddar","gouda"];
   for(var i=0;i<foods.length;i++){
     var cheeseindex=newarray.indexOf(foods[i]);
+
     if(cheeseindex!==-1)
-    return foods[i];
+    {
+      return foods[i];
+    }
   } 
   return "no cheese!";
 }
