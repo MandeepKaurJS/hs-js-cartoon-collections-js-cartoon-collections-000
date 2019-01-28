@@ -44,6 +44,9 @@ findTheCheese(['apple', 'pineapple', 'cheddar', 'gouda']) // 'cheddar'
 function wordsThatStartWithB(words){
   var emptyarray[];
   for(var i=0;i<words;i++){
+    // Iteration "bob"; empty => ['bob']
+    // Iteration "alice"; empty => ['bob']
+    // Iteration "eva"; empty => ['bob']
     empty.push(words[i].startsWith['b']);
     
   }
