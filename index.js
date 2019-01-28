@@ -36,3 +36,14 @@ function findTheCheese (foods) {
   } 
   return "no cheese!";
 }
+
+findTheCheese(['apple', 'banana', 'cheddar']) // 'cheddar'
+findTheCheese(['apple', 'pineapple', 'cheddar', 'gouda']) // 'cheddar'
+
+
+function wordsThatStartWithB(words){
+  
+}
+
+wordsThatStartWithB(['bob', 'alice', 'eva']) // ['bob']
+
